@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7074604920372670956
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7074604920372670959}
+  - component: {fileID: 7074604920372670958}
+  m_Layer: 0
+  m_Name: car changer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7074604920372670959
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7074604920372670956}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -310, y: 6.5, z: -214.3}
+  m_LocalScale: {x: 2.0274549, y: 2.0274549, z: 2.0274549}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7074604920372670958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7074604920372670956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a7f9e640fa0b844ebb53d5f470bc0e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cars:
+  - {fileID: 1436518988045014600, guid: 19c47b2cedc783944bf4482a00e9b8f8, type: 3}
+  - {fileID: 4675872518001059327, guid: 8ce31fd6968a62e4fa2101b4c4cb1ef5, type: 3}
+  - {fileID: 6045801034400237430, guid: 924d72becc6df0249a09c1b941e2e40b, type: 3}
+  - {fileID: 3893830424432665241, guid: 111541b7b25683543a92abbf6c7ecf0d, type: 3}
+  - {fileID: 721148279542868528, guid: 9a6bd2add608e56498105d1f04123291, type: 3}
+  - {fileID: 5724925986235294457, guid: 0f97f9114b19c71419da7d43ed132aeb, type: 3}
+  - {fileID: 2739080736985614872, guid: 2f1b34c9103a33a46a01cca4f5c52976, type: 3}
+  - {fileID: 3480544675798878755, guid: ced41a7b61a4aa547a8f602c08833d65, type: 3}
+  - {fileID: 5549281803035124140, guid: 0b8188afb5c1e9b4da3d7a48a3fa8461, type: 3}
+  - {fileID: 7091783451436903237, guid: c1a11d7f9015440448525e60cef866f6, type: 3}
+  - {fileID: 85790153291598257, guid: 01a90e30f1614c94aae23f4bf697ab0a, type: 3}
+  - {fileID: 1496566146867105873, guid: cd1dc70e0efc5224fa0f4933549a62d9, type: 3}
+  - {fileID: 2151509356818259384, guid: f0111b85065848544987ee0aedfd9f24, type: 3}
+  carNum: 0
