@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9b4e2a6bd1fd43c4a853f68d1fd0a1fd
+guid: 3e19236dc6b9c18428381f4a3a30148d
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
@@ -7,13 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Kart_A_01
-    second: {fileID: 2100000, guid: aa32bcd392ed4004495884636f2a8bb1, type: 2}
+      name: mat_0_ffc604b9_jpg
+    second: {fileID: 2100000, guid: ca56eb6afe1ec7f4dae312a74bfe752f, type: 2}
   - first:
-      type: UnityEngine:Material
+      type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: Kart_G_01
-    second: {fileID: 2100000, guid: cef2cd0d98d121c41854e307fe52aad4, type: 2}
+      name: ffc604b91
+    second: {fileID: 2800000, guid: a47e0c60852c28240b4e2f73884c0eca, type: 3}
   materials:
     materialImportMode: 1
     materialName: 0

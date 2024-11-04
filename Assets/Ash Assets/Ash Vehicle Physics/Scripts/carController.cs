@@ -24,9 +24,9 @@ public class carController : MonoBehaviour
     public float brake = 150;
     public float friction = 70f;
     public float dragAmount = 4f;
-    public float TurnAngle = 30f;
+    public float TurnAngle = 15f;
     
-    public float maxRayLength = 0.8f, slerpTime = 0.2f;
+    public float maxRayLength = 0.8f, slerpTime = 0.01f;
     [HideInInspector]
     public bool grounded;
 
