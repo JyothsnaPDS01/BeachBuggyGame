@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Ash Assets/Ash Vehicle Physics/Scene/BeachBuggyScene.unity
+    path: Assets/BeachBuggy/BeachBuggyScene/BeachBuggyScene.unity
     guid: 46ae796a4599e8742b471c37e7093b18
   m_configObjects: {}
